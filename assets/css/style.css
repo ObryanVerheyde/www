@@ -272,14 +272,15 @@ ul, ol {
 }
 
 
-ul.list-check {
-
+ul.list-check i{
+    font-size: 25px;
 }
 
 ul.list-check li{
     position: relative;
     font-size: 18px;
     line-height: 32px;
+    font-weight: bolder;
 }
 ul.list-check li::before {
     content: "\f00c";

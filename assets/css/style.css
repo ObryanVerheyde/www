@@ -254,6 +254,11 @@ img {
     width: 100%;
 }
 
+.cakephp
+{
+  width: 10%;
+}
+
 hr {
     margin-top: 15px;
     margin-bottom: 15px;

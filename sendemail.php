@@ -4,12 +4,12 @@
   header( 'Expires: ' . gmdate( 'r', 0 ) );
   header( 'Content-type: application/json' );
 
-  $to         = 'verheyde.obryan@gmail.com';  // put your email here
+  $to = 'verheyde.obryan@gmail.com';  // put your email here
 
   $email_template = 'simple.html';
 
   $subject    = strip_tags($_POST['subject']);
-  $email       = strip_tags($_POST['email']);
+  $email      = strip_tags($_POST['email']);
   $phone      = strip_tags($_POST['phone']);
   $name       = strip_tags($_POST['name']);
   $message    = nl2br( htmlspecialchars($_POST['message'], ENT_QUOTES) );
@@ -46,8 +46,7 @@
     '{{subject}}' => $subject,
     '{{email}}'=>$email,
     '{{message}}'=>$message,
-    '{{name}}'=>$name,
-    '{{phone}}'=>$phone
+    '{{name}}'=>$name
   );
 
   $templateContents = file_get_contents( dirname(__FILE__) . '/email-templates/'.$email_template);

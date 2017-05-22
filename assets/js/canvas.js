@@ -34,7 +34,7 @@ let linkPoints = function(point1, hubs){
 		let distance = checkDistance(point1.x, point1.y, hubs[i].x, hubs[i].y);
 		let opacity = 1 - distance / opts.linkRadius;
 		if (opacity > 0) {
-			drawArea.lineWidth = 0.5;
+			drawArea.lineWidth = 0.3;
 			drawArea.strokeStyle = `rgba(${rgb[0]}, ${rgb[1]}, ${rgb[2]}, ${opacity})`;
 			drawArea.beginPath();
 			drawArea.moveTo(point1.x, point1.y);

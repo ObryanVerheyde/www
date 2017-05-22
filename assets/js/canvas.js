@@ -4,7 +4,7 @@ let resizeReset = function() {
 }
 
 const opts = {
-	particleColor: "rgba(12, 240, 137, 0.82)",
+	particleColor: "rgba(11, 241, 137, 0.82)",
 	lineColor: "rgba(255, 255, 255, 0.68)",
 	particleAmount: 90,
 	defaultSpeed: 1,

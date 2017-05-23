@@ -353,13 +353,18 @@ ul.list-check li::before {
 	height: 100%;
 }
 
-#canvas
+#particles-js
 {
-	position: absolute;
-	display: block;
-	top: 0;
-	left: 0;
-	z-index: 0.1;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0.2;
+}
+
+hr
+{
+  border-color: #68c3a3;
 }
 
 .intro {

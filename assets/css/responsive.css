@@ -6,6 +6,11 @@
 		display: none;
 	}
 
+	#particles-js
+	{
+		display: none;
+	}
+
 	.intro h1 {
 		font-size: 40px;
 		line-height: 40px;
@@ -162,6 +167,11 @@
 		line-height: 80px;
 	}
 
+	#particles-js
+	{
+		display: none;
+	}
+
 	.social-icons ul{
 		margin-left: -5px;
 	}
@@ -308,6 +318,11 @@
 		padding: 10px 15px;
 	}
 
+	#particles-js
+	{
+		display: none;
+	}
+
 	.navbar-custom .navbar-nav > li > a,
 	.navbar-custom .navbar-nav .dropdown-menu > li > a{
 		font-size: 12px;
@@ -392,6 +407,10 @@
 	}
 	.download-button a{
 		margin-right: 10px;
+	}
+	#particles-js
+	{
+		display: none;
 	}
 
 }

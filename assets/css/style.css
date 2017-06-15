@@ -353,11 +353,11 @@ ul.list-check li::before {
 	height: 100%;
 }
 
-canvas
+#particles-js
 {
   position: absolute;
   display: block;
-  height: auto;
+  height: 773px;
   margin: auto;
   top: 0;
   left: 0;

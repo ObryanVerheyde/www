@@ -410,7 +410,8 @@
 	}
 	#particles-js
 	{
-		display: none;
+		min-width: 992px;
+		max-width: 1199px;²
 	}
 
 }
@@ -423,12 +424,20 @@
 
 /* Large devices (large desktops, 1280px and up) */
 @media screen and (min-width:1280px) and (max-width:1599px) {
-
+	canvas
+	{
+		height: 789px;
+	}
 }
 
 /* Extra Large devices (large desktops, 1600px and up) */
 @media screen and (min-width:1600px) and (max-width:1920px) {
 	.personal-info{
 		padding-right:180px;
+	}
+
+	canvas
+	{
+	  height: 1080px;
 	}
 }

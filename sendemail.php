@@ -1,9 +1,10 @@
 <?php
-
   session_cache_limiter( 'nocache' );
   header( 'Expires: ' . gmdate( 'r', 0 ) );
   header( 'Content-type: application/json' );
 
+  ini_set(“SMTP”,”smtp.gmail.com”);
+  ini_set(“smtp_port”,”465”);
   $to = 'verheyde.obryan@gmail.com';  // put your email here
 
   $email_template = 'simple.html';

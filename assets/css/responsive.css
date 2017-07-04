@@ -374,8 +374,8 @@
   		margin-right: 0;
 	}
 }
-/* Galaxy S5 */
-@media (width : 360px)
+/* Galaxy S5, S6, S7 && EDGE */
+@media (width : 360px) and (orientation: portrait)
 {
 	canvas
 	{
@@ -406,6 +406,197 @@
 
 	.intro p {
 		font-size: 10px;
+	}
+
+	.social-icons ul{
+		margin-left: 0;
+	}
+
+	.social-icons li{
+		padding:0;
+	}
+
+	.social-icons a i{
+		margin:0 11px;
+		font-size: 15px;
+	}
+
+	.social-icons a i::before {
+    position: relative;
+    z-index: 1;
+	}
+
+	.social-icons a i::after {
+		width: 40px;
+		height: 40px;
+	}
+
+	.mouse-icon{
+		display:none;
+	}
+
+	.navbar-custom .navbar-brand,
+	.navbar-custom .navbar-nav > li > a,
+	.navbar-custom .navbar-nav .dropdown-menu > li > a {
+		padding:10px 15px;
+	}
+
+	.navbar-custom .dropdown-menu{
+		margin-left: 20px;
+	}
+
+	/*about me section*/
+	.biography {
+		margin-top: 20px;
+		margin-bottom: 45px;
+	}
+
+	ul.list-check li {
+		width: 100%;
+	}
+
+	.download-button .btn{
+		margin-bottom: 20px;
+	}
+
+
+	/*resume*/
+	.resume:before,
+	.resume:after{
+		left:1px;
+	}
+
+	/*skill section*/
+	.skill-title h3 {
+		font-size: 12px;
+	}
+
+	/*facts section*/
+	.count-wrap i {
+		font-size: 40px;
+	}
+
+	.count-wrap h3 {
+		font-size: 30px;
+		line-height: 16px;
+	}
+
+	.count-wrap p {
+		font-size: 10px;
+		font-weight: 400;
+		line-height: 18px;
+	}
+
+	.count-wrap > div{
+		margin-bottom: 40px;
+	}
+
+	#filter li{
+		margin-bottom: 20px;
+	}
+
+	/*blog section*/
+	.blog-post-wrapper {
+		margin-bottom: 40px;
+	}
+
+	/*hire us section*/
+	.hire-section h2 {
+		line-height: 40px;
+	}
+
+	/*contact section*/
+	.contact-form {
+		margin-bottom: 40px;
+	}
+
+	.contact-section div > i {
+		float: none;
+		margin-right: 0;
+	}
+	.center-xs {
+		text-align: center;
+	}
+
+	/*service*/
+	.service-wrap > div{
+		margin-bottom:100px;
+	}
+
+	.service-wrap > div:nth-child(4){
+		margin-bottom:0;
+	}
+
+	/*HOME TWO*/
+	#homeTwo:before{
+		width:100%;
+	}
+
+	.personal-info{
+		text-align: center;
+		padding:0 15px;
+	}
+
+	.personal-info h1{
+		font-size: 40px;
+		line-height: 50px;
+	}
+
+	.personal-info .intro-sub{
+		font-size: 18px;
+  		line-height: 20px;
+	}
+
+	.personal-info p{
+		line-height: 20px;
+		margin-bottom: 20px;
+	}
+
+	.personal-info .my-signature {
+	  	display: none;
+	}
+
+	.personal-info .download-button a{
+		padding: 5px 10px;
+  		font-size: 15px;
+  		margin-right: 0;
+	}
+}
+/* Galaxy S5, S6, S7 && EDGE */
+@media (width : 640px) and (orientation: landscape)
+{
+	canvas
+	{
+		min-width: 100%;
+		height: 360px;
+	}
+
+	#particles-js {
+		height: 360px;
+	}
+
+	#home:before {
+		height: 360px;
+	}
+
+	.tt-fullHeight {
+		height: 360px!important;
+	}
+
+	.intro-sub {
+		font-size: 12px;
+		margin-bottom: 0;
+	}
+
+	.intro h1 {
+		font-size: 12px;
+		line-height: 40px;
+		margin-bottom: 0;
+	}
+
+	.intro p {
+		font-size: 10px;
+		margin-bottom: 0;
 	}
 
 	.social-icons ul{

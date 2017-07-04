@@ -37,6 +37,11 @@ body, html{
     overflow-x:hidden;
 }
 
+::-webkit-scrollbar
+{
+  display: none;
+}
+
 /* Link style
 ---------------------------------------------------------*/
 a {

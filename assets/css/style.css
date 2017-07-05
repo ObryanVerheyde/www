@@ -44,9 +44,16 @@ body, html{
 
 /* Link style
 ---------------------------------------------------------*/
-a {
-    color: #68c3a3;
+a
+{
+  color: #68c3a3;
 }
+
+a.no_color
+{
+  color: #000000;
+}
+
 a,
 a > * {
     outline: none;

@@ -2100,6 +2100,11 @@
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
 	}
+
+	.coming_soon
+	{
+	  height: 203px;
+	}
 }
 
 /* Extra Large devices (large desktops, 1920px) */

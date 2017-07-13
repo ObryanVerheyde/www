@@ -2147,6 +2147,11 @@
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
 	}
+
+	.reasons
+	{
+		height: 201.5px;
+	}
 }
 
 /* Extra Large devices (large desktops, 1080px) */

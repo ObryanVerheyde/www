@@ -1232,7 +1232,12 @@ Resume Timeline
 
 .coming_soon
 {
-  height: 165px;
+  height: 202.5px;
+}
+
+.reasons
+{
+  height: 202.5px;
 }
 
 /*PopUp fade effect*/

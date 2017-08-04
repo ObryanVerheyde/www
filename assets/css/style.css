@@ -1558,7 +1558,7 @@ Icon for all respective meta
 	position: absolute;
 	left: 50%;
 	bottom: 40px;
-	border: 2px solid #fff;
+	border: 2px solid #ffffff;
 	border-radius: 16px;
 	height: 50px;
 	width: 30px;
@@ -1585,7 +1585,7 @@ Icon for all respective meta
 .mouse-icon .wheel {
 	position: relative;
 	border-radius: 10px;
-	background: #fff;
+	background: #0cd3e3;
 	width: 4px;
 	height: 10px;
 	top: 4px;

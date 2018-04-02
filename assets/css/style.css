@@ -283,7 +283,7 @@ ul.list-check i{
 ul.list-check li{
     position: relative;
     font-size: 18px;
-    line-height: 32px;
+    line-height: 29px;
     font-weight: bolder;
 }
 ul.list-check li::before {

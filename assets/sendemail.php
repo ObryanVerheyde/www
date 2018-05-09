@@ -18,21 +18,21 @@
 
   if(empty($name))
   {
-    $result = array( 'response' => 'error', 'empty'=>'name', 'message'=>'<strong>Error!</strong>&nbsp; Name is empty.' );
+    $result = array( 'response' => 'error', 'empty'=>'name', 'message'=>'<strong>Désolé !</strong>&nbsp; Veuillez remplir la case NOM.' );
     echo json_encode($result );
     die;
   }
 
   if(empty($email))
   {
-    $result = array( 'response' => 'error', 'empty'=>'email', 'message'=>'<strong>Error!</strong>&nbsp; Email is empty.' );
+    $result = array( 'response' => 'error', 'empty'=>'email', 'message'=>'<strong>Désolé !</strong>&nbsp; Veuillez remplir la case E-MAIL.' );
     echo json_encode($result );
     die;
   }
 
   if(empty($message))
   {
-    $result = array( 'response' => 'error', 'empty'=>'message', 'message'=>'<strong>Error!</strong>&nbsp; Message body is empty.' );
+    $result = array( 'response' => 'error', 'empty'=>'message', 'message'=>'<strong>Désolé !</strong>&nbsp; Veuillez remplir la case MESSAGE.' );
     echo json_encode($result );
     die;
   }
@@ -56,11 +56,11 @@
 
   if(mail($to, $subject, $contents, $headers))
   {
-    $result = array('response' => 'success', 'message'=>'<strong>Thank You!</strong>&nbsp; Your email has been delivered.');
+    $result = array('response' => 'success', 'message'=>'<strong>Merci !</strong>&nbsp; Votre e-mail a bien été envoyé.');
   }
   else
   {
-    $result = array('response' => 'error', 'message'=>'<strong>Error!</strong>&nbsp; Cann\'t Send Mail.');
+    $result = array('response' => 'error', 'message'=>'<strong>Désolé !</strong>&nbsp; Votre e-mail ne s\'est pas correctement envoyé. Veuillez réessayer.');
   }
 
   echo json_encode($result);

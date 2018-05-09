@@ -7,7 +7,7 @@
   ini_set(“smtp_port”,”465”);
   $to = 'verheyde.obryan@gmail.com';  // put your email here
 
-  $email_template = 'simple.html';
+  $email_template = 'email-templates/simple.html';
 
   $subject    = strip_tags($_POST['subject']);
   $email      = strip_tags($_POST['email']);

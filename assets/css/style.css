@@ -301,8 +301,9 @@ ul.list-check li{
     font-weight: bolder;
 }
 ul.list-check li::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
     content: "\f00c";
-    font-family: fontawesome;
     color: #68c3a3;
     margin-right: 10px;
 }

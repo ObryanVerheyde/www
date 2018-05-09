@@ -33,13 +33,29 @@ body{
     -webkit-font-smoothing: antialiased !important;
 }
 
-body, html{
-    overflow-x:hidden;
+body, html
+{
+  overflow-x:hidden;
 }
 
-::-webkit-scrollbar
+/* ::-webkit-scrollbar
 {
   display: none;
+} */
+
+#ascrail2000-hr {
+  display: none;
+}
+
+.nicescroll-rails {
+  background: rgba(0, 0, 0, 0.1);
+  z-index: 9999 !important;
+}
+.nicescroll-rails:hover {
+  opacity: 1 !important;
+}
+.nicescroll-rails > div {
+  background: #4ecdc4 !important;
 }
 
 /* Link style
@@ -136,8 +152,6 @@ h5 {
 h6 {
     font-size     : 12px;
 }
-
-
 
 /* === FORM STYLE === */
 .form-control {

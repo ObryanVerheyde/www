@@ -804,7 +804,6 @@ Resume Timeline
     float: right;
     text-align: left;
     border-color: #74C3A0;
-    background: #74C3A0;
 }
 
 .timeline>li.timeline-inverted>.timeline-panel:before {

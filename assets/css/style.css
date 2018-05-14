@@ -622,6 +622,7 @@ SOCIAL ICON
 .download-button a {
     margin-right: 20px;
     color: #fff;
+    border-radius: 29px;
 }
 .download-button a i {
     margin-right: 10px;
@@ -1499,6 +1500,7 @@ Icon for all respective meta
 
 .contact-form .btn {
     margin-top: 15px;
+    border-radius: 29px;
 }
 
 .contact-section div > i{
